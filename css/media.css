@@ -1,0 +1,293 @@
+
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    .section-title p {
+        font-size: 12px;
+    }
+    .top-area-left {
+        text-align: center;
+    }
+    .top-area-right {
+        text-align: center !important;
+        margin-top: 14px;
+    }
+    .top-area-right ul li form .right-form {
+       
+        margin: 7px 0;
+    }
+    .feature-section {
+       
+        margin-top: 0;
+    }
+    section.case-study {
+        padding: 15px 0;
+    }
+    
+    .case-study-box {
+        margin-bottom: 11px;
+    }
+    .case-inne {
+        
+        text-align: center;
+    }
+    .case-inne h3 a {
+        font-size: 17px; 
+    }
+    .testimnial-section {
+        
+        padding: 35px 0;
+    }
+    .testimonial-content p {
+        font-size: 14px;
+       
+    }
+    a.video-play-btn i {
+        top: -66px;
+        padding: 12px;
+        left: -16px;
+    }
+    .blog-content {
+        padding: 0 0;
+        text-align: center;
+    }
+    .blog-title h3 a {
+        
+        font-size: 19px;
+    
+    }
+    .email-subscrib-area {
+        text-align: center;
+    }
+    .email-subscrib-area {
+        padding: 47px 0;
+       
+    }
+    
+    .email-subscrib-area input {
+        
+        border-radius: 30px;
+    }
+    .email-subscrib-area button.btn {
+        position: absolute;
+        width: 132px;
+        right: -9px;
+        top: 0px;
+    }
+    .sub-text h3 {
+        font-size: 21px;
+        
+    }
+    .sub-text p {
+       
+        font-size: 14px;
+    }
+    
+
+ }
+
+/*Small devices (landscape phones, 576px and up)*/ 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .section-title h2 {
+        font-size: 29px;
+     
+    }
+
+    .header-top-area {
+        text-align: center;
+    }
+    .top-area-right {
+        text-align: center !important;
+        margin-top: 9px;
+    }
+    .feature-section {
+      
+        margin-top: 17px;
+    }
+    .single-feature-box {
+       
+        text-align: center;
+    }
+    .f-box-img:before {
+    
+        left: 73px;
+      
+    }
+    .f-box-content p {
+        font-size: 14px;
+    }
+    section.about-us {
+        text-align: center;
+    }
+    .about-us-content {
+        margin-top: -36px;
+      
+    }
+    .single-service-box {
+       
+        padding: 8px;
+        
+    }
+    .service-box-content h3 {
+        font-size: 21px;
+    }
+    .service-box-content p {
+        font-size: 15px;
+    }
+    .case-study-box {
+        margin-bottom: 9px;
+    }
+    .testimnial-section {
+        background: #f7fafd;
+        padding: 19px 0;
+    }
+    .testimonial-content {
+     
+        padding: 25px;
+      
+    }
+    .testimonial-content p {
+        font-size: 16px;
+        margin-bottom: -11px;
+       
+    }
+    a.video-play-btn i {
+        top: -139px;
+        padding: 22px;
+        left: -23px;
+        border-radius: 50%;
+    }
+    .sub-text h3 {
+        font-size: 27px;
+        
+        text-align: center;
+    }
+    .single-blog-post {
+      
+        text-align: center;
+    }
+    .blog-title {
+         margin-left:0 ; 
+    }
+    .blog-title h3 a {
+      
+        font-size: 18px;
+    }
+    .email-subscrib-area {
+        text-align: center;
+    }
+
+    .sub-text p {
+        margin-bottom: 35px;
+        font-size: 13px;
+    }
+    .email-subscrib-area input {
+ 
+        width: 382px;
+       
+    }
+    .email-subscrib-area button.btn {
+    
+        width: 115px;
+        right: -206px;
+        top: 0;
+    }
+    .email-subscrib-area button.btn {
+        margin-left: -273px;
+    }
+
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  
+    
+    .feature-section {
+     
+        margin-top: 10px;
+        text-align: center;
+    }
+    .f-box-img:before {
+      
+        left: 123px;
+        
+    }
+    section.about-us {
+        text-align: center;
+    }
+    .about-us-content p {
+        font-size: 14px;
+    }
+    .case-study-box {
+        position: relative;
+        margin-bottom: 22px;
+    }
+    .testimnial-section {
+        background: #f7fafd;
+        padding: 22px 0;
+    }
+    a.video-play-btn i {
+        top: -166px;
+        padding: 20px;
+        left: -22px;
+       
+    }
+    .email-subscrib-area {
+        text-align: center;
+    }
+  
+  
+    .email-subscrib-area button.btn {
+       
+        right: -208px;
+        top: 0;
+    }
+    .email-subscrib-area input {
+    
+        width: 500px;
+       
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    a.navbar-brand.navbar-brand-centered {
+        position: absolute;
+        left: 42%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        
+    }
+    #nav_main ul li a {
+     
+        margin-left: 11px;
+        margin-right: 11px;
+      
+    }
+ }
+
+
+ /* Extra-Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1299.98px) { 
+ 
+
+
+
+ }
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1300px) {
+    
+    
+
+    .container {
+        max-width: 1310px;
+        width: 100%;
+    }
+
+
+}
